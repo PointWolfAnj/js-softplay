@@ -29,7 +29,7 @@ Since there should be at least 1 adult for every child inside the soft play cent
 The function should also return `false` if the number of adults or children attempting to leave is greater than the current counts - for example, if there is 1 adult and 1 child inside the center, 2 children and 2 adults attempting to leave should return `false` and the counts should not be changed.
 
 ### function occupancy()
-This function should return an object with two keys - `adults` should contain the number of children currently inside the soft play center and `children` the number of children. For example:
+This function should return an object with two keys - `adults` should contain the number of adults currently inside the soft play center and `children` the number of children. For example:
 
 ```javascript
 { 
